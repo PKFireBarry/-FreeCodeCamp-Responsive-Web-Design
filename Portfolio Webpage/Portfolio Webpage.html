@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio Webpage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top" id="navbar" >
+    <a class="navbar-brand" href="#">My Portfiolio</a>
+    <a class="navbar-brand" href="https://github.com/PKFireBarry">Github</a>
+    <a class="navbar-brand" href="https://www.linkedin.com/in/darion-george-133753a8/">LinkedIn</a>
+</nav>
+<div id="welcome-section">
+    <h1 class="hidden">Welcome</h1>
+
+</div>
+<div  class="hidden">
+    <a href="https://github.com/PKFireBarry" id="profile-link" target="_blank">Github</a>
+</div>
+<div id="projects">
+    <h2>Projects</h2>
+    <section class="project-tile">
+        <a href="https://github.com/PKFireBarry/CS50X-2022/tree/main/project"><h3>News Aggregation App</h3></a>
+        <p><h3>Description</h3> A news aggregation platform that allows users to browse and search for articles from multiple sources(powered by NewsAPI). My goal is to make it easy for users to stay up-to-date with the latest news and information from a wide range of sources. My Web app is designed to be user-friendly and easy to navigate, with a clean and modern interface that allows users to quickly find the articles they are interested in on mobile or desktop effectively. Here are the latest news headlines for today from United States media companies for the current day. Click on the links in the list to read the full article. Articles update once a day at midnight! Heres how it works! The program an API to collect news from a wide range of sources, including major news outlets, blogs, and social media platforms. The collected news articles are stored in a database or file system for later use. When a user visits the web application, the program retrieves the news articles from the database or file system and displays them on the homepage. The program uses a template engine (such as Jinja2) to render the homepage.html template, which contains the layout and design of the homepage. The homepage.html template includes a list of news articles, each with a title, summary, and link to the full article. When a user clicks on a link to an article, the program retrieves the full article from the database or file system and displays it to the user. The program uses a template engine (such as Jinja2) to render the article.html template, which contains the layout and design of the article page. The article.html template includes the full text of the article, as well as any associated images or media.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kXU_3xv5Is8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section class="project-tile">
+        <a href="https://github.com/PKFireBarry/CS50X-2022/blob/main/inheritance/inheritance.c"><h3>inheritance.c</h3></a>
+        <p><h3>Description</h3> This program is a simple implementation of inheritance in C. It is a simple program that demonstrates the use of inheritance of blood types.  A person’s blood type is determined by two alleles (i.e., different forms of a gene). The three possible alleles are A, B, and O, of which each person has two (possibly the same, possibly different). Each of a child’s parents randomly passes one of their two blood type alleles to their child. The possible blood type combinations, then, are: OO, OA, OB, AO, AA, AB, BO, BA, and BB.For example, if one parent has blood type AO and the other parent has blood type BB, then the child’s possible blood types would be AB and OB, depending on which allele is received from each parent. Similarly, if one parent has blood type AO and the other OB, then the child’s possible blood types would be AO, OB, AB, and OO.</p>
+    </section>
+    <section class="project-tile">
+        <a href="https://github.com/PKFireBarry/CS50X-2022/blob/main/world-cup/tournament.py"><h3>World Cup</h3></a>
+        <p><h3>Description</h3>In soccer’s World Cup, the knockout round consists of 16 teams. In each round, each team plays another team and the losing teams are eliminated. When only two teams remain, the winner of the final match is the champion.
+
+            In soccer, teams are given FIFA Ratings, which are numerical values representing each team’s relative skill level. Higher FIFA ratings indicate better previous game results, and given two teams’ FIFA ratings, it’s possible to estimate the probability that either team wins a game based on their current ratings. The FIFA Ratings from two previous World Cups are available as the May 2018 Men’s FIFA Ratings and March 2019 Women’s FIFA Ratings.
+            
+            Using this information, we can simulate the entire tournament by repeatedly simulating rounds until we’re left with just one team. And if we want to estimate how likely it is that any given team wins the tournament, we might simulate the tournament many times (e.g. 1000 simulations) and count how many times each team wins a simulated tournament.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+    <div>
+      <label id="name-label"> Name <input placeholder=" John" id="name" type="text" required ></label>
+      <label id="email-label"> Email <input placeholder=" Email" id="email" type="email" required ></label>
+    </div>
+    <div>
+      <label id="number-label"> Number <input placeholder="Phone Number" id="number" type="number" required min=8 max=12></label>
+    </div>
+    <div>
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option>freeCodeCamp News</option>
+        <option>freeCodeCamp YouTube Channel</option>  
+      </select>
+    </div>
+    <div>
+      <label for="personal-account"> Personal Account <input value="1" id="personal-account" type="radio" name="radio-button" class="inline" /></label>
+        <label for="business-account"> Business Account <input value="2" id="business-account" type="radio" name="radio-button" class="inline" /></label>
+    </div>
+    <div>
+        <label> Apples <input value="1" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /></label>
+        <label> Oranges <input value="2" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /></label>
+    </div>
+    <div>
+    
+        <label> Comment <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea></label>
+        <input id="submit" type="submit" value="Submit" />
+    </div>
+    </form>
+
+  </body>
+</html>
